@@ -31,3 +31,4 @@ var MienshaoSpAtk = 95;
 var MienshaoSpDef = 60;
 
 MienshaoHP = MienshaoHP - 65;
+
