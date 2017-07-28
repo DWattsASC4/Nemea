@@ -16,7 +16,7 @@ var items = [];
 
 while (money > 99) {
     console.log("you have $" + money + "left. Shirt - 100, Computer = $500")
-    var answer = prompt("which item do you want to buy? ")
+    var answer = prompt("which item do you want to buy?")
     if (answer == "Shirt") {
         money -= 100
         items.push("Shirt");
@@ -26,7 +26,7 @@ while (money > 99) {
     else if (answer == "computer"){
         money -= 400
         items.push("Computer");
-        console.log("Nigga you dont have enough money.");
+        console.log("bruh you dont have enough money.");
     }
     else {
         console.log("Aight bye fam");
